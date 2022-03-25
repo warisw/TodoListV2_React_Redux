@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from "react-redux";
-import {  completeItem, deleteItemn } from "./FormSlice";
+import {  completeItem, deleteItem} from "./FormSlice";
 import "./TodoList.css"
 function TodoList({todo:{id,text,complete}}) {
     const dispatch = useDispatch();
